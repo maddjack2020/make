@@ -1,0 +1,18 @@
+Source: make
+Section: unknown
+Priority: optional
+Maintainer: Jackson Hansen <madjack971@bsdmail.com>
+Build-Depends: debhelper-compat (= 13), dh-autoreconf
+Standards-Version: 4.5.1
+Homepage: https://www.gnu.org/software/make/
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/maddjack2020/make.git
+Vcs-Browser: https://github.com/maddjack2020/make
+
+Package: make
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: auto-generated package by debmake
+ The Make package contains a program for controlling the generation of
+ executables and other non-source files of a package from source files.
